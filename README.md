@@ -78,19 +78,20 @@ CREATE TABLE bank (
     amount VARCHAR(20)
 );
 ```
+---
 
-How to Run the Project
+## How to Run the Project
 
-1. Clone the Repository:
+#1. Clone the Repository:
    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
 cd Bank-Management-System--master
 
-2. Configure Database Settings:
+#2. Configure Database Settings:
 
 Open Connn.java in your IDE.
 Update the MySQL connection URL, root username, and password string to match your local installation:
 
   connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bankmanagementsystem", "root", "YOUR_PASSWORD");
 
-3. Run the Application:
+#3. Run the Application:
    Compile and execute Login.java or Signup.java from your preferred development environment (VS Code)
